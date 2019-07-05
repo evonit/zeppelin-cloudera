@@ -5,9 +5,9 @@ This git repository is used to build both CSDs and parcels for CDH.
 Zeppelin will run as service in Cloudera Manager, and its configuration is maintained through the CM web UI.
 CSD has only python interpeter.
 
-There are used Zeppelin 0.7.3.
+There are used Zeppelin 0.8.1.
 
-This has been tested on CDH 5.12.0.
+This has been tested on CDH 5.15.2.
 
 ## Build
 
