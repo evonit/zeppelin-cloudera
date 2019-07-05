@@ -2,11 +2,11 @@
 set -x
 set -e
 
-CM_EXT_BRANCH=cm5-5.12.0
+CM_EXT_BRANCH=cm5-5.15.0
 
-ZEPPELIN_URL=http://apache.mirror.anlx.net/zeppelin/zeppelin-0.7.3/zeppelin-0.7.3-bin-all.tgz
-ZEPPELIN_MD5="6f84f5581f59838b632a75071a2157cc"
-ZEPPELIN_VERSION=0.7.3
+ZEPPELIN_URL=http://apache.mirror.anlx.net/zeppelin/zeppelin-0.8.1/zeppelin-0.8.1-bin-all.tgz
+ZEPPELIN_MD5="ee6875ac47492e37899dea103b34d176"
+ZEPPELIN_VERSION=0.8.1
 
 zeppelin_archive="$( basename $ZEPPELIN_URL )"
 zeppelin_folder="$( basename $zeppelin_archive .tgz )"
