@@ -39,9 +39,13 @@ cp ZEPPELIN-0.8.1_build/ZEPPELIN-0.8.1-el7.parcel.sha /opt/cloudera/parcel-repo/
 systemctl restart cloudera-scm-server
 ```
 wait for restarting CM.
+
 goto parcel menu, top-right on the CM web page, then you can find ZEPPELIN (if not, click Check for new parcels button, top-right on the screen)
+
 click distribute button -> activate button
+
 goto CM main -> add service -> find zeppelin
+
 goto zeppelin -> start
 
 
